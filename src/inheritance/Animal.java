@@ -17,11 +17,11 @@ public class Animal {
     }
 
     public void eat() {
-        System.out.println("animal.eat() called");
+        System.out.println("Animal.eat() called");
     }
 
-    public void move() {
-        System.out.println("Animal.move() called");
+    public void move(int speed) {
+        System.out.println("Animal.move() called. Animal is moving at " + speed);
     }
 
     public String getName() {

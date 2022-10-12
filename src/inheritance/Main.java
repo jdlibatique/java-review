@@ -7,5 +7,10 @@ public class Main {
 
         Dog dog = new Dog("Yorkshire Terrier", 8, 20, 2, 4, 1, 20, "Long Silky" );
         System.out.println("Dog name: " + dog.getName());
+        dog.eat();
+//        dog.walk();
+        dog.run();
+
+
     }
 }
